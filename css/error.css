@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@900&family=Raleway:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+.container {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.error__icon {
+    width: 15%;
+    filter: invert(100%);
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+.error__title {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 35.4px;
+    margin-top: 20px;
+}
+
+span {
+    color: #1D92FF;
+}
+
+.error__subtitle {
+    width: 60vw;
+    margin: 0 auto;
+    color: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    margin-top: .7rem;
+    text-align: center;
+}

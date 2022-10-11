@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURORA TEAM - Хаус, созданный для Вас</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://kit.fontawesome.com/841758b748.js" crossorigin="anonymous"></script>
+    <script>
+        const nav = document.querySelector('#nav');
+        const navBtn = document.querySelector('#nav-btn');
+        const navBtnImg = document.querySelector('#nav-btn-img');
+
+        navBtn.onclick = () =>  {
+            if (nav.classList.toggle('open')) {
+                navBtnImg.src = "./img/svg/xmark-solid.svg";
+            } else {
+                navBtnImg.src = "./img/svg/bars-solid.svg";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__navbar">
+                <div class="header__logo">
+                    <a href="#!" class="header__name-site">AURORA<br>TEAM</a>
+                </div>
+                <nav id="nav" class="nav">
+                    <ul class="header__navmenu">
+                        <li class="header__menu-item">
+                            <a href="#!" class="header__menu-link header__menu-frs">Главная</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#forus" class="header__menu-link">О нас</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#contacts" class="header__menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="#anketa" class="header__btn">Вступить в Хаус</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="header__stage">
+        <div class="container">
+            <div class="stage__content">
+                <div class="stage__text">
+                    <p class="stage__title">Наша команда ждет<br>именно <span class="stage__title-span">тебя!</span></p>
+                    <p class="header__subtitle">Вступай к нам в Хаус, не упусти<br>свой шанс!</p>
+                    <a href="#anketa" class="header__btn stage-btn">Вступить в Хаус</a>
+                </div>
+                <div class="stage__image">
+                    <img src="img/stage-img.png" alt="stage img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <div id="forus" class="main__about-us">
+                <div class="about-us__image">
+                    <img src="img/party-popper.png" alt="party-popper">
+                    <p class="about-us__numb">2</p>
+                </div>
+                <div class="about-us__text">
+                    <p class="main__about-title">30 декабря нам<br><span class="main__about-title-span">исполняется 2 года!</span></p>
+                    <p class="about-us__subtext">
+                        Совсем скоро нашему Хаусу исполнится 2 года!<br>На протяжении столь большого времени мы <br>радовали Вас своим контентом. Хотим сказать <br>Вам большое спасибо, что Вы смотрите нас <br>и принимаете участие в отборах. <br>Мы продолжаем оставаться с Вами!
+                    </p>
+                </div>
+            </div>
+            <div id="anketa" class="main__chat-bot">
+                <div class="chat_bot__text">
+                    <p class="chat-bot__title">Наш <span class="chat-bot__title-span">чат-бот для анкет</span></p>
+                    <p class="chat-bot__subtext">
+                        Проверит Вашу анкету за 1 минуту, без <br>лишних ожиданий! Нажмите на <br>кнопку ниже и пишите анкету прямо сейчас.
+                    </p>
+                    <ul class="chat-bot__crit">
+                        <li class="crit__item">
+                            <p class="crit__title">У тебя есть все шансы попасть к нам!</p>
+                            <p class="crit__subtext">У нас нет особых критериев к отбору, <br>поэтому Вы сможете легко попасть к нам!</p>
+                        </li>
+                        <li class="crit__item crit-sortdown-1">Нам не важен стиль твоего скина.</li>
+                        <li class="crit__item crit-sortdown-2">Донатер ты или нет не имеет значения.</li>
+                        <li class="crit__item crit-sortdown-3">Мы не требуем большого количества подписчиков в TikTok.</li>
+                    </ul>
+                    <a href="https://t.me/AuroraaTeamBot" class="chat-bot__btn">Чат-Бот</a>
+                </div>
+                <div class="chat-bot__image">
+                    <img src="img/chat-bot.png" alt="chat bot">
+                </div>
+            </div>
+            <div id="contacts" class="main__telegram-channel">
+                <div class="channel__image">
+                    <img src="img/telegram-channel.png" alt="tg channel">
+                </div>
+                <div class="channel__text">
+                    <p class="channel__title">
+                        <span class="channel__title-span">Новости</span> нашего Хауса
+                    </p>
+                    <p class="channel__subtext">
+                        Подписывайся на наш Telegram-канал, <br>чтобы быть вкурсе всех новостей. <br>Там мы расскажем Вам о всех <br>близжайших наборах, новых видео и о многом другом!
+                    </p>
+                    <p class="channel__subitem">Также у нас есть чат для <br>подписчиков, где Вы можете пообщаться <br>с другими подписчиками и <br>даже с участниками Хауса!</p>
+                    <div class="channel__btns">
+                        <a href="https://t.me/rbx_aurora" class="channel__btn">Наш TG-канал</a>
+                        <a href="https://t.me/auroraa_team" class="chatforsubs__btn">Наш чат для подписчиков</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container__footer">
+            <div class="footer__main">
+                <div class="footer__logo">
+                    <p class="footer__sitename">AURORA <br> TEAM</p>
+                    <p class="footer__sologan">Хаус, созданный для Вас</p>
+                </div>
+                <div class="footer__for">
+                    <p class="footer_for-title">Раздел для потребителей</p>
+                    <a href="/error.html" class="footer__for-members">Для участников</a>
+                    <a href="/error.html" class="footer__for-houses">Для Хаусов</a>
+                </div>
+            </div>
+            <hr class="footer__hr">
+            <div class="footer_copy">
+                <p class="copy__years">AURORA TEAM. 2020-2022</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
