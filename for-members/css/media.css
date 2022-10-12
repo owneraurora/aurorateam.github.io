@@ -1,0 +1,34 @@
+@media (max-width: 1160px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 480px;
+    }
+
+    .text__container {
+        width: 480px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 360px;
+    }
+
+    .text__container {
+        width: 360px;
+    }
+
+    .header__info {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .header__row {
+        margin-top: 20px;
+    }
+}
