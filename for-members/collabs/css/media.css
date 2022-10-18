@@ -1,0 +1,31 @@
+@media (max-width: 720px) {
+    .header__row {
+        width: 75vw;
+    }
+
+    .collab__imgs {
+        justify-content: space-around;
+    }
+
+    .collab__aurora {
+       margin-left: 0;
+    }
+    
+    .collab__other {
+       margin-right: 0;
+    }
+    
+    .collab_title {
+        font-size: 20px;
+    }
+
+    .aurora__img {
+        width: 100px;
+        border-radius: 50px;
+    }
+    
+    .other__img {
+        width: 100px;
+        border-radius: 50px;
+    }
+}

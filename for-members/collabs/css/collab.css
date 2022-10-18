@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+.collab__imgs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.collab__aurora {
+    margin-left: 100px;
+}
+
+.collab__other {
+    margin-right: 100px;
+}
+
+.aurora__img {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.other__img {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.collab__text {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.collab_title {
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+    color: #1D92FF;
+}
+
+.collab__subtitle {
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(156, 156, 156);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.warning__collab {
+    font-size: 1.6rem;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.collab_button {
+    margin-top: 40px;
+    margin-bottom: 140px;
+    display: block;
+    text-align: center;
+}
+
+.collab__btn {
+    color: #fff;
+    background-color: #1D92FF;
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
