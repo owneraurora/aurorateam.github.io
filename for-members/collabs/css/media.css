@@ -1,6 +1,6 @@
 @media (max-width: 720px) {
     .header__row {
-        width: 75vw;
+        display: none;
     }
 
     .collab__imgs {
@@ -9,6 +9,11 @@
 
     .collab__aurora {
        margin-left: 0;
+    }
+
+    .error__collab {
+        font-size: 20px;
+        width: 90vw;
     }
     
     .collab__other {
@@ -27,5 +32,15 @@
     .other__img {
         width: 100px;
         border-radius: 50px;
+    }
+}
+
+@media (max-width: 360px) {    
+    .container {
+        width: 280px;
+    }
+
+    .error__collab {
+        font-size: 15px;
     }
 }
