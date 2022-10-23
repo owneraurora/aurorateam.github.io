@@ -55,6 +55,14 @@ a {
     text-align: center;
 }
 
+.italic {
+    font-style: italic;
+}
+
+.right {
+    text-align: right;
+}
+
 ul, li {
     padding-top: 10px;
     list-style: inside;
@@ -91,4 +99,8 @@ hr {
     background-color: rgb(132, 95, 0);
     padding: 20px 15px;
     border-radius: 10px;
+}
+
+.underlined {
+    text-decoration: underline;
 }
