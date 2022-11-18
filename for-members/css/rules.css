@@ -47,6 +47,18 @@ a {
     color: rgb(94, 50, 176);
 }
 
+.btn-down {
+    text-decoration: none;
+    color: #fff;
+    transition: transform .3s;
+}
+
+.btn-down::before {
+    content: "\f104";
+    font-family: FontAwesome;
+    margin-right: 10px;
+}
+
 .bold {
     font-weight: 700;
 }
